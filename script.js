@@ -1,5 +1,7 @@
 let input = document.querySelector("input");
 let message = document.querySelector("h3");
+var intervalID =document.querySelector("button")
+
 
 const pi = 3.14;
 
@@ -17,8 +19,11 @@ function berekenOppervlakte()
 function showMessage()
 {
     message.innerText = "De omtrek van de circel is: " + berekenOmtrek() + " en de oppervlakte is: " + berekenOppervlakte();
-}
-{
+
+    
+    console.log("hi");
     var d = new Date();
-document.getElementById("demo").innerHTML = d;
+    document.getElementById("demo").innerHTML = d;
+    var time = XMLHttpRequestUpload();
+    scope.setInterval("button",code, delay);
 }
